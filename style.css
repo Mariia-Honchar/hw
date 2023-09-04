@@ -1,0 +1,26 @@
+body {
+    color: rgba(0, 0, 0, 0.463);
+}
+a{
+    text-decoration: none;
+    font-style: normal;
+}
+.text-box h3:first-of-type {
+    color: pink;
+}
+
+#greycol{
+    color: rgb(181, 172, 172);
+}
+
+.text-box p:last-of-type {
+    color: red;
+}
+
+.text-box p:nth-of-type(2n+3) {
+    color: green;
+}
+
+.text-box .yellow:last-of-type {
+    color: yellow;
+}
